@@ -25,6 +25,10 @@ body {
   outline: 2px solid tomato;
 }
 /*Шапка*/
+.header-container {
+  display: flex;
+  align-items: center;
+}
 .logo {
   color: #000000;
   font-family: Raleway, sans-serif;
@@ -36,7 +40,18 @@ body {
 .logo-accent {
   color: var(--accent-color);
 }
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+.site-nav .item + .item {
+  margin-left: 50px;
+}
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--heading-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -50,6 +65,13 @@ body {
 }
 .site-nav .link.current {
   color: var(--accent-color);
+}
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+.contacts .item + .item {
+  margin-left: 50px;
 }
 .contacts .link {
   color: var(--primery-text-color);
