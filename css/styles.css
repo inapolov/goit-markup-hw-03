@@ -29,6 +29,10 @@ body {
   display: flex;
   align-items: center;
 }
+.nav-flex {
+  display: flex;
+  align-items: center;
+}
 .logo {
   color: #000000;
   font-family: Raleway, sans-serif;
