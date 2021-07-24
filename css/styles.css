@@ -137,10 +137,9 @@ body {
 }
 .advantages .item {
   width: 270px;
-  margin-right: 30px;
 }
-.advantages .item:nth-child(4n) {
-  margin-right: 0;
+.advantages .item + .item {
+  margin-left: 30px;
 }
 
 .advantages .title {
@@ -165,10 +164,9 @@ body {
 }
 .whatwedo .item {
   width: 370px;
-  margin-right: 30px;
 }
-.whatwedo .item:nth-child(3n) {
-  margin-right: 0;
+.whatwedo .item + .item {
+  margin-left: 30px;
 }
 /*Наша команда*/
 .ourteam {
@@ -179,11 +177,11 @@ body {
   flex-wrap: wrap;
 }
 .team .item {
-  width: 270px;
-  margin-right: 30px;
+  width: 270px;  
 }
-.team .item:nth-child(4n) {
-  margin-right: 0;
+.team .item + .item{
+  margin-left: 30px;
+}
 }
 .team .image {
   margin-top: 0;
