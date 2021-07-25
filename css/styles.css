@@ -293,6 +293,10 @@ body {
   margin-bottom: 0;
 }
 .portfolio .title {
+  margin-top: 20px;
+  margin-left : 24px;
+  margin-bottom: 4px;
+  margin-right: 24px;
   color: var(--heading-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -303,6 +307,10 @@ body {
   text-decoration: none;
 }
 .portfolio .text {
+  margin-top: 0;
+  margin-left: 24px;
+  margin-bottom: 20px;
+  margin-right: 24px;
   color: var(--primery-text-color);
   font-weight: 400;
   font-size: 16px;
