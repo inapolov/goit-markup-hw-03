@@ -11,7 +11,9 @@ body {
   --accent-color: #2196f3;
   --primery-white-color: #ffffff;
 }
-
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+}
 .list {
   list-style: none;
   padding: 0;
@@ -24,10 +26,12 @@ body {
   margin: 0 auto;
 }
 /*Шапка*/
+.header{
+ border-bottom: 1px solid #ECECEC;
+}
 .header-container {
   display: flex;
-  align-items: center;
-  border-bottom: 1px solid #ECECEC;
+  align-items: center; 
 }
 .nav-flex {
   display: flex;
@@ -95,6 +99,10 @@ body {
   background-color: #2f303a;
   text-align: center;
 }
+.hero .container{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -106,6 +114,10 @@ body {
   text-transform: uppercase;
 }
 .button {
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
   color: var(--primery-white-color);
   background-color: var(--accent-color);
   font-family: inherit;
@@ -186,7 +198,11 @@ body {
 }
 .team .image {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
+}
+.team-description{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-title {
   text-align: center;
@@ -208,12 +224,11 @@ body {
 
 /*Footer*/
 .footer {
-  background-color: #2f303a;
-}
-.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #2f303a;
 }
+
 .footer-logo {
   display: inline-block;
   margin-top: 0;
@@ -260,6 +275,10 @@ body {
 }
 
 .filter .button {
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
   color: var(--heading-text-color);
   background-color: #f5f4fa;
   font-family: inherit;
